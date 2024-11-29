@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "ITC Cheltenham W04 Book";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/public/fonts/Fontspring-DEMO-cheltenham_pro-book.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ITC Cheltenham W04 Book";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/public/fonts/Fontspring-DEMO-cheltenham_pro-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ITC Cheltenham W04 Book";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/public/fonts/Fontspring-DEMO-cheltenham_pro-bookitalic.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "ITC Cheltenham W04 Book";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/public/fonts/Fontspring-DEMO-cheltenham_pro-bolditalic.otff")
+    format("opentype");
+}

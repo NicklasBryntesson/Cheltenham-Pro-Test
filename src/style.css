@@ -1,0 +1,25 @@
+/* BASE wrapper for whole site */
+#app {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color--bjork--S50);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: var(--centerGrid);
+  background-color: var(--theme--surface);
+  gap: var(--spacing--5xl);
+  color: var(--theme--text);
+  padding-block: var(--spacing--5xl);
+}
+
+.section > * {
+  grid-column: main;
+  text-wrap: pretty;
+}
